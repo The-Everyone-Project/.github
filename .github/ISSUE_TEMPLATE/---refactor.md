@@ -1,8 +1,8 @@
 ---
-name: "✨ New Feature"
-about: Suggest an idea for this project
-title: "✨"
-labels: 'Type: Feature'
+name: "♻️ Refactor"
+about: Something that needs improving while not changing functionality
+title: "♻️"
+labels: 'Type: Refactor'
 assignees: ''
 
 ---
@@ -13,12 +13,12 @@ assignees: ''
 Cc:
 <!-- add intended user next to **Hi** -->
 Hi 
-  
+
 ### Pain
 <!-- Explain the pain you are experiencing -->
 
-### Suggested Solution
-<!-- Describe the solution you'd like -->
+### What code could be improved?
+<!-- Add a link to the area/file that needs refactoring -->
 
 ### Tasks
 <!--Add GitHub tasks-->

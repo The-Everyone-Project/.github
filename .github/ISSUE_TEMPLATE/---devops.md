@@ -1,8 +1,8 @@
 ---
-name: "✨ New Feature"
-about: Suggest an idea for this project
-title: "✨"
-labels: 'Type: Feature'
+name: "\U0001F477 DevOps"
+about: Updating the CI/CD piplines
+title: "\U0001F477"
+labels: 'Type: DevOps'
 assignees: ''
 
 ---

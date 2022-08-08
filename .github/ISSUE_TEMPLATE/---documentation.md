@@ -1,8 +1,8 @@
 ---
-name: "✨ New Feature"
-about: Suggest an idea for this project
-title: "✨"
-labels: 'Type: Feature'
+name: "\U0001F4DD Documentation"
+about: Updating documentation (e.g. README, Wiki, Guides etc.)
+title: "\U0001F4DD"
+labels: 'Type: Documentation'
 assignees: ''
 
 ---
@@ -13,12 +13,12 @@ assignees: ''
 Cc:
 <!-- add intended user next to **Hi** -->
 Hi 
-  
+
 ### Pain
 <!-- Explain the pain you are experiencing -->
 
-### Suggested Solution
-<!-- Describe the solution you'd like -->
+### Suggested Documentation
+<!-- Short summary of the documentation that should be added -->
 
 ### Tasks
 <!--Add GitHub tasks-->
@@ -26,7 +26,7 @@ Hi
 - [ ] ...
 
 ### More Information
-<!-- Add any other context here. -->
+<!-- Add any other context here -->
 
 ### Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
