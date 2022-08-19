@@ -2,12 +2,19 @@
 
 <!-- Please ensure your title is in the correct format, e.g. FEATURE: BACD Update widget A --> 
 
+<!-- Please ensure you have tided up your branch commits before creating a PR. If you have lots of small commits -->
+<!-- please use `git rebase -i HEAD~x` where x is the number of commits you want to squash. Then sqash all the -->
+<!-- commits into one (or a few) commit(s) and make an appropriate comment for that/those commit(s). Then make sure -->
+<!-- subsequent commits pushed to the PR have good comments. The commit comments will be added to the master in the -->
+<!-- squashed commit -->
+
 Please check if your PR fulfils the following requirements:
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been reviewed and added / updated if needed (for bug fixes / features)
 - [ ] Build (`npm run build`) was run locally and any changes were pushed
 - [ ] Lint (`npm run lint`) has passed locally and any fixes were made for failures
 - [ ] PR Title starts with one of the following: FEATURE:, FIX:, DOCUMENTATION:, BREAKING_CHANGE:
+- [ ] Your branch commits are tidy and descriptive
 
 
 ## Pull request type
