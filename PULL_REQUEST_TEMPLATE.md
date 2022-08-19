@@ -1,5 +1,7 @@
 ## Pull request checklist
 
+<!-- Please ensure your title is in the correct format, e.g. FEATURE: BACD Update widget A #7. --> 
+
 Please check if your PR fulfills the following requirements:
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been reviewed and added / updated if needed (for bug fixes / features)
