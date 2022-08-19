@@ -26,16 +26,16 @@ Please check the type of change your PR introduces:
 - [ ] Other (please describe): 
 
 
-## What is the current behavior?
-<!-- Please describe the current behavior that you are modifying. -->
+## What is the current behaviour?
+<!-- Please describe the current behaviour that you are modifying. -->
 
 
 <!-- Issues are required for both bug fixes and features. -->
 Closes issue:  
 
 
-## What is the new behavior?
-<!-- Please describe the behavior or changes that are being added by this PR. -->
+## What is the new behaviour?
+<!-- Please describe the behaviour or changes that are being added by this PR. -->
 
 -
 -
