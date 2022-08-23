@@ -1,7 +1,7 @@
 ---
-name: ":construction_worker: DevOps"
+name: "👷 DevOps"
 about: Updating the CI/CD piplines
-title: ":construction_worker:"
+title: "👷"
 labels: 'Type: devops :construction_worker:'
 assignees: ''
 
