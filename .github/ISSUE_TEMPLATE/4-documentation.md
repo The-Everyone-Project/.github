@@ -1,8 +1,8 @@
 ---
-name: "\U0001F4DD Documentation"
+name: ":memo: Documentation"
 about: Updating documentation (e.g. README, Wiki, Guides etc.)
-title: "\U0001F4DD"
-labels: 'Type: Documentation'
+title: ":memo:"
+labels: 'Type: documentation :memo:'
 assignees: ''
 
 ---
