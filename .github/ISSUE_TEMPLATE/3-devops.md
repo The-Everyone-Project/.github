@@ -1,8 +1,8 @@
 ---
-name: "\U0001F477 DevOps"
+name: ":building_construction: DevOps"
 about: Updating the CI/CD piplines
-title: "\U0001F477"
-labels: 'Type: DevOps'
+title: ":building_construction:"
+labels: 'Type: devops :building_construction:'
 assignees: ''
 
 ---
