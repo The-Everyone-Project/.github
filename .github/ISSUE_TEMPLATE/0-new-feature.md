@@ -11,14 +11,25 @@ assignees: ''
 <!-- **Tip:** Delete parts that are not relevant -->
 <!-- Next to Cc:, @ mention users who should be in the loop -->
 Cc:
-<!-- add intended user next to **Hi** -->
-Hi 
-  
-### Pain
-<!-- Explain the pain you are experiencing -->
 
-### Suggested Solution
-<!-- Describe the solution you'd like -->
+### Summary
+<!-- In the summary use the below convention if it fits. The important point is to think about who this change applies to -->
+<!-- i.e. the context of the change. This is important information both when thinking about the creation of features (one -->
+<!-- feature vs multiple features and when considering the implementation of the feature. -->
+<!-- However, if the below structure does not work for the change (it might be because it is a system change), you can delete -->
+<!-- the text and enter your own summary -->
+
+1. As a <!-- user concerned by the story -->
+2. I want <!-- goal of the story -->
+3. so that <!-- reason for the story - this is optional if more details are provided in the description below -->
+  
+<!-- Description section -->
+<!-- This should expand on the above summary if neccessary -->
+
+### Acceptance Criteria
+<!-- You should provide a list of criteria to measure if this issue has been satisifed -->
+- [ ] ...
+- [ ] ...
 
 ### Tasks
 <!--Add GitHub tasks-->
@@ -32,4 +43,5 @@ Hi
 ### Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-Thanks!
+<!-- Note that if a conversation about this issue is happening, the outcome should be captured here within the issue -->
+<!-- description, not in the comments -->
