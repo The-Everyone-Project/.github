@@ -1,8 +1,8 @@
 ---
-name: ":building_construction: DevOps"
+name: ":construction_worker: DevOps"
 about: Updating the CI/CD piplines
-title: ":building_construction:"
-labels: 'Type: devops :building_construction:'
+title: ":construction_worker:"
+labels: 'Type: devops :construction_worker:'
 assignees: ''
 
 ---
