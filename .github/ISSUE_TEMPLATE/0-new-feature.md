@@ -1,7 +1,7 @@
 ---
-name: ":bulb: New Feature"
+name: "💡 New Feature"
 about: Suggest an idea for this project
-title: ":bulb:"
+title: "💡"
 labels: 'Type: feature :bulb:'
 assignees: ''
 
