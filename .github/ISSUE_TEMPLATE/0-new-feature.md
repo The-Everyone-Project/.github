@@ -27,7 +27,7 @@ Cc:
 <!-- This should expand on the above summary if neccessary -->
 
 ### Acceptance Criteria
-<!-- You should provide a list of criteria to measure if this issue has been satisifed -->
+<!-- You should provide a list of criteria to measure if this issue has been satisfied -->
 - [ ] ...
 - [ ] ...
 
