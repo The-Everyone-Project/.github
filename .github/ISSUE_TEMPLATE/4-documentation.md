@@ -1,7 +1,7 @@
 ---
-name: ":memo: Documentation"
+name: "📝 Documentation"
 about: Updating documentation (e.g. README, Wiki, Guides etc.)
-title: ":memo:"
+title: "📝"
 labels: 'Type: documentation :memo:'
 assignees: ''
 
