@@ -13,9 +13,9 @@ assignees: ''
 Cc:
 
 ### Summary
-<!-- In the summary use the below convention if it fits. The important point is to think about who this change applies to -->
+<!-- In the summary use the below convention if it fits. The important point is to think about to who this change applies to -->
 <!-- i.e. the context of the change. This is important information both when thinking about the creation of features (one -->
-<!-- feature vs multiple features and when considering the implementation of the feature. -->
+<!-- feature vs multiple features and when considering the feature implementation. -->
 <!-- However, if the below structure does not work for the change (it might be because it is a system change), you can delete -->
 <!-- the text and enter your own summary -->
 
@@ -24,7 +24,7 @@ Cc:
 3. so that <!-- reason for the story - this is optional if more details are provided in the description below -->
   
 <!-- Description section -->
-<!-- This should expand on the above summary if neccessary -->
+<!-- This should expand on the above summary if necessary -->
 
 ### Acceptance Criteria
 <!-- You should provide a list of criteria to measure if this issue has been satisfied -->
