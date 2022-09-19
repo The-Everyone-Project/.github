@@ -9,7 +9,7 @@ assignees: ''
 
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
-<!-- Next to Cc:, @ mention users who should be in the loop (this is only required if you specificaly want someone to see this immediatly -->
+<!-- Next to Cc:, @ mention users who should be in the loop (this is only required if you specifically want someone to see this immediately -->
 <!-- otherwise developers will have visibility during the sprint planning meeting -->
 
 ### Summary
@@ -20,8 +20,8 @@ assignees: ''
 <!-- the text and enter your own summary -->
 
 1. As a <!-- user concerned by the story -->
-2. I want <!-- goal of the story -->
-3. so that <!-- reason for the story - this is optional if more details are provided in the description below -->
+2. I want <!-- the goal of the story -->
+3. so that <!-- the reason for the story - this is optional if more details are provided in the description below -->
   
 <!-- Description section -->
 <!-- This should expand on the above summary if necessary -->
