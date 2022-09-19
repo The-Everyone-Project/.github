@@ -1,7 +1,7 @@
 ---
 name: "💡 New Feature"
 about: Suggest an idea for this project
-title: "💡"
+title: "💡 "
 labels: 'Type: feature :bulb:'
 assignees: ''
 
@@ -9,8 +9,8 @@ assignees: ''
 
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
-<!-- Next to Cc:, @ mention users who should be in the loop -->
-Cc:
+<!-- Next to Cc:, @ mention users who should be in the loop (this is only required if you specificaly want someone to see this immediatly -->
+<!-- otherwise developers will have visibility during the sprint planning meeting -->
 
 ### Summary
 <!-- In the summary use the below convention if it fits. The important point is to think about to who this change applies to -->
