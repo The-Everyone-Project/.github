@@ -9,10 +9,8 @@ assignees: ''
 
 <!-- These comments automatically delete -->
 <!-- **Tip:** Delete parts that are not relevant -->
-<!-- Next to Cc:, @ mention users who should be in the loop -->
-Cc:
-<!-- add intended user next to **Hi** -->
-Hi 
+<!-- Next to Cc:, @ mention users who should be in the loop (this is only required if you specificaly want someone to see this immediatly -->
+<!-- otherwise developers will have visibility during the sprint planning meeting -->
 
 ### Describe the Bug
 <!-- A clear and concise description of what the bug is. -->
@@ -42,5 +40,3 @@ Steps to reproduce the behavior:
 ### Screenshots
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-
-Thanks!
