@@ -38,7 +38,7 @@ Please check the type of change your PR introduces:
 
 
 <!-- Issues are required for both bug fixes and features. -->
-Closes #  
+Closes #
 
 
 ## What is the new behaviour?
