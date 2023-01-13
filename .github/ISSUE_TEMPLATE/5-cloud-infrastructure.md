@@ -1,8 +1,8 @@
 ---
-name: "\U00026C8 Cloud Ifrastructure Issue Report"
+name: "🌩️ Cloud Ifrastructure Issue Report"
 about: Create a report to help us improve
 title: "\U00026C8 "
-labels: 'Type: cloud-bug 🌩️:'
+labels: 'Type: cloud-bug 🌩️'
 assignees: ''
 
 ---
