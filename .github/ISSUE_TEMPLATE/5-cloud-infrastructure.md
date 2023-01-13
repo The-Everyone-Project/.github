@@ -1,7 +1,7 @@
 ---
 name: "🌩️ Cloud Ifrastructure Issue Report"
 about: Create a report to help us improve
-title: "\U00026C8 "
+title: "🌩️ "
 labels: 'Type: cloud-bug 🌩️'
 assignees: ''
 
