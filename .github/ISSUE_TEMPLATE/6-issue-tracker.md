@@ -1,7 +1,7 @@
 ---
-name: "🧠 [Tracking] "
+name: "🧠 Issue Tracking "
 about: Track issues
-title: "🧠 "
+title: "🧠 [Tracking]"
 labels: 'Type: tracking 🧠'
 assignees: ''
 ---
