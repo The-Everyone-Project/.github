@@ -1,7 +1,7 @@
 name: "🧪 Test Requirements"
 description: Define testing requirements for new features or changes.
 title: "🧪 "
-labels: "testing"
+labels: "Type: testing 🧪"
 body:
   - type: markdown
     attributes:
