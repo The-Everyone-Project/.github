@@ -1,0 +1,48 @@
+name: "🧪 Test Requirements"
+description: Define testing requirements for new features or changes.
+title: "🧪 "
+labels: "testing"
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete the below details about the testing requirements.
+  - type: textarea
+    id: test-scenarios
+    attributes:
+      label: Test Scenarios
+      description: List out the various scenarios that need to be tested to ensure the feature or change works as expected.
+      placeholder: Describe the test scenarios...
+    validations:
+      required: true
+  - type: textarea
+    id: test-data
+    attributes:
+      label: Test Data
+      description: Specify any test data or conditions necessary to execute the test scenarios.
+      placeholder: Provide test data or conditions...
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Outline the criteria that must be met for this feature or change to be considered complete from a testing perspective.
+      placeholder: Describe the acceptance criteria...
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-test
+    attributes:
+      label: Steps to Test
+      description: Provide detailed steps on how to test the feature or change. This may include setup instructions, specific actions to take, and expected outcomes.
+      placeholder: Describe the steps to test...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Include any additional notes, considerations, or references relevant to testing this feature or change.
+      placeholder: Add any extra info...
