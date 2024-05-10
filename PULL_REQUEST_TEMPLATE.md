@@ -14,7 +14,7 @@ Closes #
 - [ ] I have reviewed my code for any potential issues.
 - [ ] Lint (`pnpm run lint` or appropriate lint command) has passed locally and any fixes were made for failures
 - [ ] I have updated the documentation accordingly.
-- [ ] This PR starts with `['BUILD','CHORE','CI','DOCS','FEAT','FIX','PERF','REFACTOR','REVERT','STYLE','TEST']:`
+- [ ] This PR starts with `['build','chore','ci','docs','feat','fix','perf','refactor','revert','style','test']:`
 
 ## Additional Information
 <!-- Any additional details that may be helpful for the reviewers. -->
