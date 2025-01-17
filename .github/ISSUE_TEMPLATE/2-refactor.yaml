@@ -16,21 +16,19 @@ body:
       description: "Explain the reason for the refactor"
       placeholder: "Enter the reason or issue here"
 
-  - type: input
+  - type: textarea
     id: code_to_improve
     attributes:
       label: "What code could be improved?"
       description: "Add a link to the area or file that needs refactoring"
       placeholder: "Provide a file path or link"
 
-  - type: checkboxes
+  - type: textarea
     id: tasks
     attributes:
       label: "Tasks"
       description: "Add tasks for the refactor"
-      options:
-        - label: "Add task 1"
-        - label: "Add task 2"
+      placeholder: "- [ ] Task 1"
 
   - type: textarea
     id: more_information
