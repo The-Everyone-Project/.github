@@ -1,0 +1,69 @@
+name: "🌩️ Cloud Infrastructure Issue Report"
+description: "Report issues related to cloud infrastructure (e.g., deployment, configuration, outages, etc.)"
+title: "🌩️ "
+labels:
+  - "Type: cloud-bug 🌩️"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following form.
+
+  - type: textarea
+    id: describe_issue
+    attributes:
+      label: "Issue Description"
+      description: "Provide a clear and concise description of the cloud infrastructure issue"
+      placeholder: "Describe the issue here (e.g., deployment failure, configuration error, outage)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce_steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the issue, if applicable"
+      placeholder: |
+        1. Navigate to '...'
+        2. Perform '...'
+        3. Observe the error
+
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      label: "Expected Behaviour"
+      description: "Describe what you expected to happen instead of the issue"
+      placeholder: "Explain the expected outcome"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: "Tasks"
+      description: "Define the tasks required to investigate and fix the issue"
+      options:
+        - label: "Investigate"
+        - label: "Fix"
+        - label: "Test the solution"
+
+  - type: textarea
+    id: more_information
+    attributes:
+      label: "More Information"
+      description: "Add any additional context, logs, or details to support the issue report"
+      placeholder: "Provide additional context, references, or links"
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment Details"
+      description: "Provide information about the environment where the issue occurred (e.g., cloud provider, region, OS)"
+      placeholder: "e.g., AWS us-east-1, Ubuntu 20.04"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots or Logs"
+      description: "If applicable, add screenshots or logs to help explain the issue"
+      placeholder: "Attach relevant screenshots or logs"
