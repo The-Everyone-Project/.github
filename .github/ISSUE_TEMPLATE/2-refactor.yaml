@@ -1,0 +1,47 @@
+name: "♻️ Refactor"
+description: "Something that needs improving while not changing functionality"
+title: "♻️ "
+labels:
+  - "Type: refactor :recycle:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please enter details of the refactoring issue below.
+
+  - type: textarea
+    id: pain
+    attributes:
+      label: "Why"
+      description: "Explain the reason for the refactor"
+      placeholder: "Enter the reason or issue here"
+
+  - type: input
+    id: code_to_improve
+    attributes:
+      label: "What code could be improved?"
+      description: "Add a link to the area or file that needs refactoring"
+      placeholder: "Provide a file path or link"
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: "Tasks"
+      description: "Add tasks for the refactor"
+      options:
+        - label: "Add task 1"
+        - label: "Add task 2"
+
+  - type: textarea
+    id: more_information
+    attributes:
+      label: "More Information"
+      description: "Add any other context here"
+      placeholder: "Provide additional details or context"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "If applicable, add screenshots to help explain the issue"
+      placeholder: "Provide a link or attach screenshots"
