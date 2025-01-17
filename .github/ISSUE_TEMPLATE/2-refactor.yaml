@@ -12,16 +12,20 @@ body:
   - type: textarea
     id: pain
     attributes:
-      label: "Why"
+      label: "Why do we need to refactor?"
       description: "Explain the reason for the refactor"
       placeholder: "Enter the reason or issue here"
+    validations:
+      required: true
 
   - type: textarea
     id: code_to_improve
     attributes:
       label: "What code could be improved?"
       description: "Add a link to the area or file that needs refactoring"
-      placeholder: "Provide a file path or link"
+      placeholder: "Provide a file path or link and/or description"
+    validations:
+      required: true
 
   - type: textarea
     id: tasks
