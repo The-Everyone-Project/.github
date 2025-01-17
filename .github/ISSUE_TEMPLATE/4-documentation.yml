@@ -1,0 +1,52 @@
+name: "📝 Documentation"
+description: "Updating or improving documentation (e.g., README, Wiki, Guides, etc.)"
+title: "📝 "
+labels:
+  - "Type: documentation :memo:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following form.
+
+  - type: textarea
+    id: pain
+    attributes:
+      label: "Current Issue or Missing Documentation"
+      description: "Explain the issue or missing documentation that needs addressing"
+      placeholder: "Describe the problem with current documentation or what's missing"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_documentation
+    attributes:
+      label: "Suggested Documentation Update"
+      description: "Provide a short summary of the documentation changes or additions that should be made"
+      placeholder: "Describe the changes or new content to be added"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: "Tasks"
+      description: "Define the tasks required to complete the documentation update"
+      options:
+        - label: "Write or update the documentation"
+        - label: "Review the changes"
+        - label: "Publish the updates"
+
+  - type: textarea
+    id: more_information
+    attributes:
+      label: "More Information"
+      description: "Add any additional context, links, or references to help with the update"
+      placeholder: "Provide additional details or context"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots or References"
+      description: "If applicable, add screenshots, references, or examples to support the update"
+      placeholder: "Attach relevant screenshots or links"
