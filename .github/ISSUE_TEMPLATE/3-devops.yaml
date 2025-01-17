@@ -1,0 +1,52 @@
+name: "👷 DevOps"
+description: "Updating CI/CD pipelines or other infrastructure tasks"
+title: "👷 "
+labels:
+  - "Type: devops :construction_worker:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the below form. 
+
+  - type: textarea
+    id: pain
+    attributes:
+      label: "Current Issue or Challenge"
+      description: "Explain the current issue or challenge with the pipeline, infrastructure, or deployment process"
+      placeholder: "Describe the issue or challenge here"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested_solution
+    attributes:
+      label: "Suggested Solution"
+      description: "Describe the solution or improvement you propose for the issue"
+      placeholder: "Explain the proposed solution or approach"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: "Tasks"
+      description: "Define the tasks needed to address the issue"
+      options:
+        - label: "Update pipeline configuration"
+        - label: "Test the new setup"
+        - label: "Document the changes"
+
+  - type: textarea
+    id: more_information
+    attributes:
+      label: "More Information"
+      description: "Add any additional context, references, or links to support this task"
+      placeholder: "Provide additional details or references"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots or Logs"
+      description: "If applicable, add screenshots, error logs, or other outputs to help explain the issue"
+      placeholder: "Attach logs or screenshots"
