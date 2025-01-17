@@ -1,0 +1,36 @@
+name: "📝 Non-coding Task"
+description: "Track a task that does not involve changes to the code repository."
+title: "📝 [Task]"
+labels:
+  - "Type: task 📝"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to document non-coding tasks with clear goals and notes
+
+  - type: textarea
+    id: task_description
+    attributes:
+      label: "Task Description"
+      description: "Provide a clear description of the task to be completed"
+      placeholder: "Summarize the task here"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: goals
+    attributes:
+      label: "Goals"
+      description: "List the specific goals or outcomes for this task"
+      options:
+        - label: "Define the objective"
+        - label: "Complete the required actions"
+        - label: "Verify results"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes"
+      description: "Add any additional context, information, or details related to this task"
+      placeholder: "Include additional information, references, or comments"
