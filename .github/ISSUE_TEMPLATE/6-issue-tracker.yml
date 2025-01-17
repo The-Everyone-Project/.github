@@ -1,0 +1,44 @@
+name: "🧠 Issue Tracking"
+description: "Track ongoing issues or features with clear goals and definitions of done."
+title: "🧠 [Tracking]"
+labels:
+  - "Type: tracking 🧠"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to track an issue or feature with defined goals and completion criteria
+
+  - type: input
+    id: feature_description
+    attributes:
+      label: "Feature Description"
+      description: "Provide a clear description of the issue or feature being tracked"
+      placeholder: "Summarize the issue or feature here"
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: "Goal"
+      description: "Describe the goal or outcome you aim to achieve with this issue or feature"
+      placeholder: "Explain the objective or expected result"
+
+  - type: checkboxes
+    id: definition_of_done
+    attributes:
+      label: "Definition of Done"
+      description: "List the criteria that need to be met for this issue or feature to be considered complete"
+      options:
+        - label: "All tasks are complete"
+        - label: "Goal is achieved"
+        - label: "Tests are passed"
+        - label: "Stakeholder approval"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes"
+      description: "Add any additional context, information, or details related to this issue or feature"
+      placeholder: "Include additional information, references, or comments"
