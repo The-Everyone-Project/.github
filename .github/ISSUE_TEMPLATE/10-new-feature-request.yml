@@ -1,0 +1,54 @@
+name: "💡 Feature Request"
+description: Suggest a new feature or enhancement for this project.
+title: "💡 [Feature Request] "
+labels:
+  - "Type: feature :bulb:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        Please provide details about the feature request from a user and business perspective.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: |
+        Describe the feature from the perspective of the user and the problem it solves. Use the format:
+        _As a <type of user>, I want <some goal> so that <some reason>._
+      placeholder: "As a <type of user>, I want <some goal> so that <some reason> (e.g., As an admin, I want to schedule automated backups so that I can ensure data security)."
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-justification
+    attributes:
+      label: Business Justification
+      description: "Explain why this feature is important. What problem does it solve? What value does it bring?"
+      placeholder: "Describe how this feature aligns with business goals or user needs."
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: "Define the success criteria that must be met for this feature to be considered complete."
+      placeholder: |
+        - The feature should allow users to...
+        - The performance impact should be minimal.
+        - It should be tested on all major devices.
+
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies or Related Work
+      description: "List any related tasks or issues that must be completed before or alongside this request."
+      placeholder: "- [] #32 (Related issue)"
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: "Provide any extra information, links, or resources related to this feature."
+      placeholder: "Include links to designs, specifications, or related documents."

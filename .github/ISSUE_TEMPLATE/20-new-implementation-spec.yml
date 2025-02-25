@@ -1,0 +1,154 @@
+name: "🛠🤖 Feature Spec"
+description: Define a structured specification for a feature/bug/refactor that can be ingested by GitHub Copilot Workspaces.
+title: "🛠🤖 "
+labels:
+  - "Type: spec :memo: :robot:"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This document is intended to break down the implementation details of a feature request into concrete specifications ready for implementation.
+        You can use an AI such as ChatGPT to help generate the content for this template. To do this you can use the following prompt (replacing the
+        text after "Generate the issue using the following inputs" with your own words):
+
+        ```
+        You are an AI assistant generating GitHub issues optimized for AI-assisted code changes. The output must be clear and structured for both humans and AI ingestion.
+
+        Ensure the issue follows this structure:
+
+        **Title:**
+
+        - A short, clear title describing the issue.
+
+        **Description:**
+
+        - A concise explanation of the feature or bug.
+        - The reason for the change and any relevant context.
+
+        **Requirements:**
+
+        - A numbered list of requirements, specifying what needs to be done.
+        - Where applicable, mention specific files, functions, or components that need modification.
+
+        **Suggested Changes:**
+
+        - High-level guidance on how the change should be implemented (without dictating exact code).
+
+        **Affected Files:**
+
+        - A list of relevant files and directories.
+        - If possible, specify function names or line numbers.
+
+        **Acceptance Criteria:**
+
+        - A checklist of conditions that must be met for the issue to be considered complete.
+
+        **Dependencies & Considerations:**
+
+        - Any external dependencies, API calls, or related issues that need to be considered.
+
+        **Generate the issue using the following inputs:**
+
+        **Feature description:** Add a dark mode toggle to the settings page.
+
+        **Requirements:**
+        1. Add a toggle button to enable/disable dark mode.
+        1. Store user preference in local storage.
+        1. Apply dark mode styles when enabled.
+
+        **Affected files:**
+        - src/components/Settings.js (Add toggle button)
+        - src/styles/theme.css (Define dark mode styles)
+        - src/utils/storage.js (Save/retrieve user preference)
+
+        **Acceptance criteria:**
+        - Users can enable and disable dark mode via the settings page.
+        - Dark mode state persists after a page refresh.
+
+        **Additional considerations:** Ensure accessibility compliance and test in multiple browsers.
+        ```
+        You can then use the generated content to fill out the template below.
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature Type
+      description: "Select the type of feature this implementation spec is for."
+      options:
+        - "Feature :bulb:"
+        - "Bug :bug:"
+        - "Refactor :recycle:"
+      default: 0
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: "Add Dark Mode Toggle to Settings Page"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "A concise explanation of the feature or bug"
+      placeholder: |
+        - Implement a dark mode toggle on the settings page that allows users to switch between light and dark themes. The user preference should persist across sessions, saved in local storage.
+        - This feature enhances user experience, providing a more customizable and accessible interface. The dark mode toggle should be intuitive and compatible across all major browsers.
+
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: "A numbered list of requirements, specifying what needs to be done"
+      placeholder: |
+        1. Add a toggle button to enable/disable dark mode on the settings page.
+        1. Store the user's dark mode preference in local storage for persistence.
+        1. Apply dark mode styles globally when the toggle is enabled.
+        1. Ensure the toggle button is accessible and easy to use.
+        1. Test the implementation across major browsers for compatibility.
+
+  - type: textarea
+    id: suggested_changes
+    attributes:
+      label: Suggested Changes
+      description: "High-level guidance on how the change should be implemented"
+      placeholder: |
+        - Add a toggle button in src/components/Settings.js that allows users to switch between dark and light modes.
+        - In src/utils/storage.js, implement functions to save and retrieve the dark mode preference from local storage.
+        - Modify src/styles/theme.css to define appropriate dark mode styles (background colours, text colours, etc.).
+        - Ensure the dark mode preference is applied globally when retrieved from local storage.
+
+  - type: textarea
+    id: affected_files
+    attributes:
+      label: Affected Files
+      description: "A list of relevant files and directories"
+      placeholder: |
+        - src/components/Settings.js - Add the dark mode toggle button.
+        - src/utils/storage.js - Define dark mode styles.
+        - src/styles/theme.css - Handle saving and retrieving user preferences.
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: "A checklist of conditions that must be met for the issue to be considered complete"
+      placeholder: |
+        - [ ] Users can enable and disable dark mode via the settings page toggle button.
+        - [ ] Dark mode state persists after a page refresh, based on the value in local storage.
+        - [ ] The toggle button is accessible (consider screen readers, colour contrast, etc.).
+        - [ ] Dark mode styles are properly applied, covering all elements of the interface.
+        - [ ] The feature is tested on major browsers (Chrome, Firefox, Safari, Edge) for compatibility.
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies & Considerations
+      description: "Any external dependencies, API calls, or related issues that need to be considered"
+      placeholder: |
+        - Ensure the dark mode toggle is compatible with the existing theme styles.
+        - Consider any potential performance impacts of applying dark mode styles.
+        - Test the feature alongside other settings page components for consistency.
