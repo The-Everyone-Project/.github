@@ -8,64 +8,64 @@ body:
     attributes:
       value: |
         This document is intended to break down the implementation details of a feature request into concrete specifications ready for implementation.
-        You can use an AI such as ChatGPT to help generate the content for this template. To do this you can use the following prompt (replacing the
-        text after "Generate the issue using the following inputs" with your own words):
+
+        You can use an AI such as ChatGPT to help generate the content for this template. To do this you can use the following prompt (replacing the text after "Generate the issue using the following inputs" with your own words):
 
         ```
         You are an AI assistant generating GitHub issues optimized for AI-assisted code changes. The output must be clear and structured for both humans and AI ingestion.
 
         Ensure the issue follows this structure:
 
-        **Title:**
+        Title:
 
         - A short, clear title describing the issue.
 
-        **Description:**
+        Description:
 
         - A concise explanation of the feature or bug.
         - The reason for the change and any relevant context.
 
-        **Requirements:**
+        Requirements:
 
         - A numbered list of requirements, specifying what needs to be done.
         - Where applicable, mention specific files, functions, or components that need modification.
 
-        **Suggested Changes:**
+        Suggested Changes:
 
         - High-level guidance on how the change should be implemented (without dictating exact code).
 
-        **Affected Files:**
+        Affected Files:
 
         - A list of relevant files and directories.
         - If possible, specify function names or line numbers.
 
-        **Acceptance Criteria:**
+        Acceptance Criteria:
 
         - A checklist of conditions that must be met for the issue to be considered complete.
 
-        **Dependencies & Considerations:**
+        Dependencies & Considerations:
 
         - Any external dependencies, API calls, or related issues that need to be considered.
 
-        **Generate the issue using the following inputs:**
+        Generate the issue using the following inputs:
 
-        **Feature description:** Add a dark mode toggle to the settings page.
+        Feature description: Add a dark mode toggle to the settings page.
 
-        **Requirements:**
+        Requirements:
         1. Add a toggle button to enable/disable dark mode.
         1. Store user preference in local storage.
         1. Apply dark mode styles when enabled.
 
-        **Affected files:**
+        Affected files:
         - src/components/Settings.js (Add toggle button)
         - src/styles/theme.css (Define dark mode styles)
         - src/utils/storage.js (Save/retrieve user preference)
 
-        **Acceptance criteria:**
+        Acceptance criteria:
         - Users can enable and disable dark mode via the settings page.
         - Dark mode state persists after a page refresh.
 
-        **Additional considerations:** Ensure accessibility compliance and test in multiple browsers.
+        Additional considerations: Ensure accessibility compliance and test in multiple browsers.
         ```
         You can then use the generated content to fill out the template below.
 
@@ -75,9 +75,9 @@ body:
       label: Feature Type
       description: "Select the type of feature this implementation spec is for."
       options:
-        - "Feature :bulb:"
-        - "Bug :bug:"
-        - "Refactor :recycle:"
+        - "Feature 💡"
+        - "Bug 🐛"
+        - "Refactor ♻️"
       default: 0
 
   - type: input
