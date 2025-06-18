@@ -1,8 +1,7 @@
 name: "📝 Non-coding Task"
 description: "Track a task that does not involve changes to the code repository."
-title: "📝 [Task]"
-labels:
-  - "Type: task 📝"
+title: "📝 "
+type: "Task"
 body:
   - type: markdown
     attributes:
