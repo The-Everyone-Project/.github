@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this template to describe a mid-level feature that contributes to a broader initiative. This should define the purpose and scope of the feature. Sub-issues (e.g., Development Units) will be created separately by the development team.
+        Use this template to describe a mid-level feature that contributes to a broader initiative. This should define the purpose and scope of the feature. Sub-issues (e.g., Development Units) will be created separately by the development team. **Note: this template should only be used in the tep-documentation repository!**
 
   - type: textarea
     id: summary
