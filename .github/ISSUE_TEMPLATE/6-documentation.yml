@@ -1,8 +1,8 @@
 name: "📝 Documentation"
 description: "Updating or improving documentation (e.g., README, Wiki, Guides, etc.)"
 title: "📝 "
-labels:
-  - "Type: documentation :memo:"
+type: "Task"
+
 body:
   - type: markdown
     attributes:
