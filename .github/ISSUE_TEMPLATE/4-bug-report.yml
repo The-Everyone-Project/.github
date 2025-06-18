@@ -1,72 +1,84 @@
 name: "🐛 Bug Report"
-description: "Create a report to help us improve"
+description: "Report a bug to help us improve the system."
 title: "🐛 "
-labels:
-  - "Type: bug :bug:"
+type: "Bug"
+
 body:
   - type: markdown
     attributes:
       value: |
-        Please complete the below forms about the bug.
+        Please complete the form below to help us understand, reproduce, and fix the issue efficiently.
 
   - type: textarea
     id: bug_description
     attributes:
       label: "Describe the Bug"
-      description: "A clear and concise description of what the bug is."
-      placeholder: "Enter bug description here"
+      description: "Provide a clear and concise description of the issue."
+      placeholder: "What happened? What did you expect to happen instead?"
     validations:
       required: true
 
   - type: textarea
     id: reproduce_steps
     attributes:
-      label: "To Reproduce"
+      label: "Steps to Reproduce"
       description: |
-        Steps to reproduce the behaviour:
+        Provide a step-by-step guide to reproduce the bug:
         1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See the error
-      placeholder: "List the steps to reproduce the bug if appropriate"
+        2. Click on '...'
+        3. Observe the issue
+      placeholder: |
+        1. Navigate to...
+        2. Perform...
+        3. Observe the error
 
   - type: input
     id: expected_behavior
     attributes:
       label: "Expected Behaviour"
-      description: "A clear and concise description of what you expected to happen."
-      placeholder: "Enter expected behaviour here"
+      description: "What did you expect to happen?"
+      placeholder: "The correct output should have been..."
+
+  - type: input
+    id: actual_behavior
+    attributes:
+      label: "Actual Behaviour"
+      description: "What actually happened? (if different from the description above)"
+      placeholder: "Instead, it displayed..."
 
   - type: checkboxes
     id: tasks
     attributes:
       label: "Tasks"
-      description: "Select the tasks for this issue"
+      description: "What needs to happen for this bug?"
       options:
         - label: "Investigate"
         - label: "Fix"
+        - label: "Add test coverage"
+        - label: "Document workaround (if needed)"
 
   - type: textarea
     id: more_information
     attributes:
       label: "More Information"
-      description: "Add any other context about the problem here"
-      placeholder: "Enter additional details or links"
+      description: "Add any other context, logs, or links that might help."
+      placeholder: "Relevant logs, feature flags, commit references, etc."
 
   - type: input
     id: environment
     attributes:
       label: "Environment"
       description: |
-        Provide the details of your environment:
-        - Device: e.g., iPhone 12
-        - Browser: e.g., Chrome, Safari
-        - OS: e.g., iOS
-      placeholder: "Enter environment details here"
+        Provide your environment details:
+        - Device: e.g., MacBook Pro, iPhone 13
+        - Browser: e.g., Chrome 123, Safari 16
+        - OS: e.g., macOS Ventura, iOS 17
+        - App Version (if known)
+      placeholder: "Device, OS, browser, app version..."
 
   - type: textarea
     id: screenshots
     attributes:
-      label: "Screenshots"
-      description: "If applicable, add screenshots to help explain your problem"
-      placeholder: "Provide a link or attach screenshots"
+      label: "Screenshots or Recordings"
+      description: "Attach images or screen recordings that illustrate the bug."
+      placeholder: "Paste image links or attach screenshots to this issue."
