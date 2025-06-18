@@ -1,5 +1,5 @@
 name: "🛠 Development Unit"
-description: Implementation-ready unit of work that supports a Feature or Bug Fix.
+description: Implementation-ready unit of work that supports a Feature.
 title: "🛠 "
 labels: "Development Unit"
 
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue defines an implementation-ready unit of work that supports a Feature or Bug Fix.
+        This issue defines an implementation-ready unit of work that supports a Feature.
 
         You may optionally use an AI tool (e.g. ChatGPT) to help generate the content. If so, a sample prompt is provided below for convenience. Otherwise, just fill out the fields manually.
 
@@ -32,7 +32,6 @@ body:
         2. Store preference.
         3. Apply styles.
         ```
-        ---
 
   - type: dropdown
     id: unit-type
@@ -41,7 +40,6 @@ body:
       description: "Select the type of development unit this is."
       options:
         - "Functional Addition ➕"
-        - "Bug Fix 🐛"
         - "Refactor ♻️"
       default: 0
 
