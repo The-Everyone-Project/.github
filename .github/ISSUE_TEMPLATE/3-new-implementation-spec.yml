@@ -1,7 +1,7 @@
 name: "🛠 Development Unit"
 description: Implementation-ready unit of work that supports a Feature.
 title: "🛠 "
-labels: "Development Unit"
+type: "Development Unit"
 
 body:
   - type: markdown
