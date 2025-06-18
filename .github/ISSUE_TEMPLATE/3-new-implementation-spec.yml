@@ -43,14 +43,6 @@ body:
         - "Refactor ♻️"
       default: 0
 
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      placeholder: "Implement Dark Mode Toggle"
-    validations:
-      required: true
-
   - type: textarea
     id: description
     attributes:
