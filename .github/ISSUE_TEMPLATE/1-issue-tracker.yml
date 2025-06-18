@@ -1,44 +1,40 @@
-name: "🧠 Issue Tracking"
-description: "Track ongoing issues or features with clear goals and definitions of done."
-title: "🧠 [Tracking]"
-labels:
-  - "Type: tracking 🧠"
+name: "🧠 Initiative"
+description: "Defines a broad, high-level goal."
+title: "🧠 "
+type:
+  - Initiative
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template to track an issue or feature with defined goals and completion criteria
+        Use this template to define a high-level goal that will be broken down into Features and Development Units.
 
-  - type: input
-    id: feature_description
+  - type: textarea
+    id: summary
     attributes:
-      label: "Feature Description"
-      description: "Provide a clear description of the issue or feature being tracked"
-      placeholder: "Summarize the issue or feature here"
+      label: "Summary"
+      description: "Provide a clear, concise overview of the initiative and its purpose."
+      placeholder: "Summarize the initiative's purpose, scope, and context."
     validations:
       required: true
 
   - type: textarea
-    id: goal
+    id: tasks
     attributes:
-      label: "Goal"
-      description: "Describe the goal or outcome you aim to achieve with this issue or feature"
-      placeholder: "Explain the objective or expected result"
-
-  - type: checkboxes
-    id: definition_of_done
-    attributes:
-      label: "Definition of Done"
-      description: "List the criteria that need to be met for this issue or feature to be considered complete"
-      options:
-        - label: "All tasks are complete"
-        - label: "Goal is achieved"
-        - label: "Tests are passed"
-        - label: "Stakeholder approval"
+      label: "Tasks / Sub-Issues"
+      description: "List the Features or Development Units that will be created as part of this initiative."
+      placeholder: |
+        - [ ] Create Feature: User authentication
+        - [ ] Create Feature: New onboarding flow
+        - [ ] Link related issues
+    validations:
+      required: false
 
   - type: textarea
-    id: notes
+    id: more_info
     attributes:
-      label: "Notes"
-      description: "Add any additional context, information, or details related to this issue or feature"
-      placeholder: "Include additional information, references, or comments"
+      label: "More Information"
+      description: "Include any relevant links, documentation, or background information."
+      placeholder: "Add context, links to designs, technical notes, or external documents."
+    validations:
+      required: false
