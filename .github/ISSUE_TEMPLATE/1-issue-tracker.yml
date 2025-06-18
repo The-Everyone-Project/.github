@@ -2,7 +2,7 @@ name: "🧠 Initiative"
 description: "Defines a broad, high-level goal."
 title: "🧠 "
 type:
-  - Initiative
+  - "Initiative"
 body:
   - type: markdown
     attributes:
