@@ -1,39 +1,39 @@
 name: "🌩️ Cloud Infrastructure Issue Report"
-description: "Report issues related to cloud infrastructure (e.g., deployment, configuration, outages, etc.)"
+description: "Report issues or suggest improvements related to cloud infrastructure (e.g., deployments, configurations, outages, optimizations)"
 title: "🌩️ "
-labels:
-  - "Type: cloud-bug 🌩️"
+type: "Cloud Infrastructure"
+
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the following form.
+        Please complete the following form to help us address the cloud infrastructure issue or improvement.
 
   - type: textarea
     id: describe_issue
     attributes:
-      label: "Issue Description"
-      description: "Provide a clear and concise description of the cloud infrastructure issue"
-      placeholder: "Describe the issue here (e.g., deployment failure, configuration error, outage)"
+      label: "Issue or Improvement Description"
+      description: "Provide a clear and concise description of the issue or improvement related to the cloud infrastructure."
+      placeholder: "Describe the problem or improvement here (e.g., deployment failure, configuration error, outage, performance enhancement)"
     validations:
       required: true
 
   - type: textarea
     id: reproduce_steps
     attributes:
-      label: "Steps to Reproduce"
-      description: "List the steps to reproduce the issue, if applicable"
+      label: "Steps to Reproduce (if applicable)"
+      description: "List the steps to reproduce the issue, if relevant. Leave blank if not applicable."
       placeholder: |
         1. Navigate to '...'
         2. Perform '...'
-        3. Observe the error
+        3. Observe the error or behavior
 
   - type: textarea
     id: expected_behaviour
     attributes:
-      label: "Expected Behaviour"
-      description: "Describe what you expected to happen instead of the issue"
-      placeholder: "Explain the expected outcome"
+      label: "Expected Behaviour or Outcome"
+      description: "Describe what you expected to happen or the desired outcome if proposing an improvement."
+      placeholder: "Explain the expected result or improvement goal"
     validations:
       required: true
 
@@ -41,29 +41,31 @@ body:
     id: tasks
     attributes:
       label: "Tasks"
-      description: "Define the tasks required to investigate and fix the issue"
+      description: "Select the tasks needed to address this issue or implement the improvement."
       options:
         - label: "Investigate"
         - label: "Fix"
-        - label: "Test the solution"
+        - label: "Test"
+        - label: "Document"
+        - label: "Deploy"
 
   - type: textarea
     id: more_information
     attributes:
-      label: "More Information"
-      description: "Add any additional context, logs, or details to support the issue report"
-      placeholder: "Provide additional context, references, or links"
+      label: "Additional Information"
+      description: "Add any additional context, logs, links, or references that may help with the investigation or implementation."
+      placeholder: "Provide additional details, logs, or relevant links"
 
   - type: input
     id: environment
     attributes:
       label: "Environment Details"
-      description: "Provide information about the environment where the issue occurred (e.g., cloud provider, region, OS)"
-      placeholder: "e.g., AWS us-east-1, Ubuntu 20.04"
+      description: "Provide information about the environment where the issue or improvement applies (e.g., cloud provider, region, OS)."
+      placeholder: "e.g., AWS us-east-1, Azure West Europe, Ubuntu 20.04"
 
   - type: textarea
     id: screenshots
     attributes:
-      label: "Screenshots or Logs"
-      description: "If applicable, add screenshots or logs to help explain the issue"
+      label: "Screenshots, Logs, or Attachments"
+      description: "If applicable, add screenshots, logs, or other files to help explain the issue or improvement."
       placeholder: "Attach relevant screenshots or logs"
