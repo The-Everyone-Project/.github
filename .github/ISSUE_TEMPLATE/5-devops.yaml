@@ -1,52 +1,53 @@
 name: "👷 DevOps"
-description: "Updating CI/CD pipelines or other infrastructure tasks"
+description: "Submit tasks related to CI/CD pipelines, infrastructure, deployment processes, or other operational improvements."
 title: "👷 "
-labels:
-  - "Type: devops :construction_worker:"
+type: "Dev Ops"
+
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the below form. 
+        Please fill out this form to describe the current challenge or opportunity related to our infrastructure, CI/CD pipelines, deployment processes, or other operational aspects, and provide your proposed solution.
 
   - type: textarea
     id: pain
     attributes:
-      label: "Current Issue or Challenge"
-      description: "Explain the current issue or challenge with the pipeline, infrastructure, or deployment process"
-      placeholder: "Describe the issue or challenge here"
+      label: "Current Challenge or Opportunity"
+      description: "Describe the current pain point, inefficiency, limitation, or enhancement opportunity."
+      placeholder: "Explain the challenge or opportunity here"
     validations:
       required: true
 
   - type: textarea
     id: suggested_solution
     attributes:
-      label: "Suggested Solution"
-      description: "Describe the solution or improvement you propose for the issue"
-      placeholder: "Explain the proposed solution or approach"
+      label: "Proposed Solution or Improvement"
+      description: "Detail the solution, improvement, or change you propose to address the challenge or seize the opportunity."
+      placeholder: "Describe your proposed approach"
     validations:
-      required: true
+      required: false
 
   - type: checkboxes
     id: tasks
     attributes:
       label: "Tasks"
-      description: "Define the tasks needed to address the issue"
+      description: "Select the tasks needed to implement the solution or improvement."
       options:
         - label: "Update pipeline configuration"
         - label: "Test the new setup"
         - label: "Document the changes"
+        - label: "Notify stakeholders"
 
   - type: textarea
     id: more_information
     attributes:
-      label: "More Information"
-      description: "Add any additional context, references, or links to support this task"
-      placeholder: "Provide additional details or references"
+      label: "Additional Context or References"
+      description: "Add any relevant details, links, logs, or documentation to support this request."
+      placeholder: "Provide supporting information here"
 
   - type: textarea
     id: screenshots
     attributes:
-      label: "Screenshots or Logs"
-      description: "If applicable, add screenshots, error logs, or other outputs to help explain the issue"
+      label: "Screenshots, Logs, or Outputs"
+      description: "If applicable, attach screenshots, error logs, or other outputs that help illustrate the issue or proposed changes."
       placeholder: "Attach logs or screenshots"
